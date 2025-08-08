@@ -1,0 +1,260 @@
+/* General Styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #090042;
+    padding: 0px 16px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar img {
+    height: 100px;
+    margin-right: 5px;
+    
+}
+
+.navbar .brand-name {
+    color: #f2f2f2;
+    font-size: 40px;
+    margin-right: auto;
+}
+
+.navbar a {
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 20px 25px;
+}
+
+.navbar a:hover {
+    background-color: #ffffff1e;
+    color: rgb(255, 255, 255);
+    border-radius: 10%;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+footer {
+    background-color: #090042;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    margin-top: 70px;
+}
+
+h2 {
+    color: #090042;
+}
+
+section {
+    margin-bottom: 5px;
+}
+
+footer p, footer form {
+    margin: 20px 0;
+    
+}
+
+footer form {
+    background-color: #ffffff63;
+}
+footer form input[type="email"] {
+    padding: 5px;
+    margin-right: 20px;
+}
+
+footer form input[type="text"] {
+    padding: 5px;
+    margin-right: 20px;
+}
+
+footer form button {
+    padding: 5px 8px;
+    background-color: #090042;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+footer form button:hover {
+    background-color: #090042ad;
+    color: rgb(255, 255, 255);
+}
+
+main .books{
+    position: relative;
+    display: flex;
+    margin-top: .5vw;
+    flex-direction: row;
+    max-width: 95vw;
+    overflow: hidden;
+    left: 1.8vw;
+    width: 96vw;
+    justify-content: space-between;
+    align-items: center;
+}
+main .books .book{
+    display: flex;
+    flex-direction: column;
+    min-height: 25vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.books .book img{
+    height: 20vw;
+    border-radius: 5px;
+    border: none;
+    transition: 0.3s;
+}
+.books .book img:hover{
+    filter: brightness(0.25);
+    transition: 0.3s;
+}
+main .books .book .book-title{
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+main .books .book .author{
+    font-weight: 300;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    letter-spacing: 1px;
+}
+main .books .book .book-des a{
+    color: #000000;
+    text-decoration: none;
+}
+main .books .book .book-price{
+    font-weight: 500;
+}
+main .books .book button{
+    padding: 5px 7px;
+    background-color: #090042;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+main .books .book button:hover {
+    background-color: #090042ad;
+    color: rgb(255, 255, 255);
+}
+
+/* Categories Page */
+select {
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.cetegories {
+    background: #090042;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+select {
+    width: 10%;
+    padding: 10px;
+    border: 1px solid #090042;
+    border-radius: 4px;
+    background-color: #090042; 
+    color: #ffffff;
+    font-size: 16px;
+}
+
+select:hover {
+    background-color: #090042aa;
+    color: #ffffff;
+}
+
+option {
+    background-color: #090042c5;
+    color: #fffbfb;
+}
+
+/* Testimonials Page */
+.testimonial {
+    background-color: #09004238;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial video, .testimonial audio {
+    display: block;
+    margin: 20px 0;
+}
+
+/* Contact Us Page */
+form {
+    background-color: #09004238;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 5px 8px;
+    background-color: #090042;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+form {
+    margin: 20px 0;
+}
+
+form input[type="email"] {
+    padding: 5px;
+    margin-right: 20px;
+}
+
+form input[type="text"] {
+    padding: 5px;
+    margin-right: 20px;
+}
+
+form input[type="tel"] {
+    padding: 5px;
+    margin-right: 20px;
+}
+button {
+    padding: 5px 8px;
+    background-color: #090042;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10%;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book World - Gift & Cards</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <div class="navbar">
+        <img src="Logo/Book World Logo.png" alt="Book World Logo">
+        <div class="brand-name">Book World</div>
+        <a href="index.html">Home</a>
+        <a href="categories.html">Categories</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="contact.html">Contact Us</a>
+    </div>
+
+    <main>
+        <h2>Categories</h2>
+        <label for="category">Choose a category:</label>
+        <select id="category" name="category" onchange="location = this.value;">
+            <option value="">Select...</option>
+            <option value="fiction.html" >Fiction</option>
+            <option value="non-fiction.html">Non-Fiction</option>
+            <option value="stationery.html">Stationery</option>
+            <option value="gifts-cards.html">Gifts & Cards</option>
+        </select>
+
+        <!-- Best-Selling Books of the Month -->
+        <section>
+            <h2>Gift & Cards</h2>
+            <div class="books">
+                <div class="book">
+                    <img src="Gift & Cards/Birthday Cup.jpg" alt="Birthday Cup">
+                    <div class="itemName">Birthday Cup</div>
+                    <div class="itemCategory">Gift & Cards</div>
+                    <div class="itemPrice">Rs.800</div>
+                    <button>Order Now</button>
+                </div>
+                <div class="book">
+                    <img src="Gift & Cards/Birthday Gift.jpg" alt="Birthday Gift">
+                    <div class="itemName">Birthday Gift</div>
+                    <div class="itemCategory">Gift & Cards</div>
+                    <div class="itemPrice">Rs.1500</div>
+                    <button>Order Now</button>
+                </div>
+                <div class="book">
+                    <img src="Gift & Cards/Flower.jpg" alt="Flower">
+                    <div class="itemName">Flower</div>
+                    <div class="itemCategory">Gift & Cards</div>
+                    <div class="itemPrice">Rs.900</div>
+                    <button>Order Now</button>
+                </div>
+                <div class="book">
+                    <img src="Gift & Cards/Valentine Cup.jpg" alt="Valentine Cup">
+                    <div class="itemName">Valentine Cup</div>
+                    <div class="itemCategory">Gift & Cards</div>
+                    <div class="itemPrice">Rs.800</div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+        </section>
+    </main>   
+
+    <!-- Footer -->
+    <footer>
+        <p>Contct Us:
+            Kinniyadi Road, Bathuriya Nagar, Meeravodai 05 |
+            +94 77 484 8952 |
+            info.bookworld.com
+            
+        </p>
+        <p>Follow us on:
+            <a href="https://web.facebook.com/athnanbma" target="_blank">FaceBook</a> |
+            <a href="https://www.instagram.com/invites/contact/?igsh=1e2qh2zxehazg&utm_content=hh4v5mp" target="_blank">Instagram</a> |
+            <a href="https://www.linkedin.com/in/athnan-badurdeen-ab194027a" target="_blank">LinkedIn</a> |
+            <a href="https://x.com/Athnan_BM?t=yl-TJZyN6u3pO1sv06wKOQ&s=09" target="_blank">X</a>
+        </p>
+        <form>
+            <h2>Send a Message</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" placeholder="Enter your subject" required>
+            <label for="comments" >Message:</label>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <form>
+            <h2>Subscribe to Newsletter</h2>
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+        </form>
+        <div class="copyright"> 2024. All rights reserved.</div>
+    </footer>
+</body>
+</html>
